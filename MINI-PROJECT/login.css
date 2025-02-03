@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #4b6797, #a1a9b7);
+    color: #fff;
+  }
+  
+ .login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .login-container, .register-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-message {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .left-message h1 {
+    font-size: 2.5rem;
+    color: #1e3c72;
+    margin-bottom: 20px;
+  }
+  
+  .left-message p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .left-message p a{
+    text-decoration: none;
+    background-color: #5487e4;
+    color: white;
+    font-size: 1.1rem;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .left-message p a:hover {
+    background-color: rgb(14, 14, 102);
+  }
+  
+  /* Right Side Form */
+  .right-form {
+    flex: 1;
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right-form h2 {
+    font-size: 2rem;
+    color: #1e3c72;
+    margin-bottom: 20px;
+  }
+  
+  .right-form label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+  }
+  
+  .right-form input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .right-form input:focus {
+    border-color: #1e3c72;
+    box-shadow: 0 0 5px rgba(30, 60, 114, 0.5);
+  }
+  
+  .right-form button {
+    background-color: #1e3c72;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .right-form button:hover {
+    color:black;
+    background-color: #ffcc00;
+  }
+  
+  .right-form button:active {
+    background-color: #cc9900;
+  }
+  
+  .right-form p {
+    color: black;
+  }
+  

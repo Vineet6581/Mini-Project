@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Adventure</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+  
+    <section class="booking-section">
+        <div class="booking-container">
+            <div class="booking-info">
+                <h2>Book Your Next Adventure</h2>
+                <img src="adventure.png" alt="">
+                <p class="intro-text">Embark on an unforgettable journey with us. Choose your adventure, select the date, and secure your spot!</p>
+                <div class="adventure-details">
+                    <h3>Our Exciting Adventures</h3>
+                    <ul>
+                        <li><strong>Mountain Trekking</strong> - Challenging yet rewarding treks!</li>
+                        <li><strong>River Rafting</strong> - Feel the thrill of the rapids!</li>
+                        <li><strong>Safari Expedition</strong> - A wild adventure awaits!</li>
+                        <li><strong>Desert Exploration</strong> - Navigate vast, mesmerizing dunes!</li>
+                    </ul>
+                    <br>
+                    <p><a href="index.html">Back to Home</a></p>
+                </div>
+            </div>
+            <div class="booking-form">
+                <h3>Reserve Your Spot</h3>
+                <form action="#" method="post">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="adventure">Select Adventure</label>
+                    <select id="adventure" name="adventure" required>
+                        <option value="" disabled selected>Select an Adventure</option>
+                        <option value="mountain">Mountain Trekking</option>
+                        <option value="river">River Rafting</option>
+                        <option value="safari">Safari Expedition</option>
+                        <option value="desert">Desert Exploration</option>
+                    </select>
+
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+
+                    <label for="participants">Number of Participants</label>
+                    <input type="number" id="participants" name="participants" min="1" max="10" required>
+
+                    <label for="message">Special Requests</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Any special requests?"></textarea>
+
+                    <button type="submit">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Adventure Awaits. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
